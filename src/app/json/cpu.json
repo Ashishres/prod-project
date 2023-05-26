@@ -1,0 +1,50 @@
+
+{
+    "CPU": [
+      {
+        "Name": "AMD Ryzen 5 3600",
+        "Core count": "6",
+        "Performance core clock": "3.6 GHz",
+        "price": 94
+      },
+      {
+        "Name": "AMD Ryzen 5 5600X",
+        "Core count": "6",
+        "Performance core clock": "4.6 GHz",
+        "price": 149
+      },
+      {
+        "Name": "Intel Core i7-4790K",
+        "Core count": "4",
+        "Performance core clock": "4 GHz",
+        "price": 270
+      },
+      {
+        "Name": "Intel Core i5-12600K",
+        "Core count": "10",
+        "Performance core clock": "4.9 GHz",
+        "price": 200
+      },
+      {
+        "Name": "AMD Threadripper 3990X",
+        "Core count": "64",
+        "Performance core clock": "2.9 GHz",
+        "price": 4870
+      }
+      
+
+    ]
+    
+  }
+
+
+
+
+
+
+
+
+  
+
+  
+  

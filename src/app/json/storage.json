@@ -1,0 +1,34 @@
+{
+    "Storage": [
+        {
+          "Name": "Samsung 970 EVO Plus",
+          "capacity": "1 TB",
+          "type": "M.2 PCIe 3.0 SSD",
+          "price": 60
+        },
+        {
+          "Name": "Samsung 980 Pro",
+          "capacity": "2 TB",
+          "type": "M.2 PCIe 4.0 SSD",
+          "price": 140
+        },
+        {
+          "Name": "Kingston NV2",
+          "capacity": "1 TB",
+          "type": "M.2 PCIe 4.0 SSD",
+          "price": 42
+        },
+        {
+          "Name": "Seagate Barracuda Compute",
+          "capacity": "2 TB",
+          "type": "SATA 6.0 GB/s",
+          "price": 140
+        },
+        {
+          "Name": "Crucial P3",
+          "capacity": "1 TB",
+          "type": "M.2 PCIe 3.0 SSD",
+          "price": 45
+        }
+      ]
+}

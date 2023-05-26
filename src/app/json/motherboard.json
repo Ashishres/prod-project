@@ -1,0 +1,34 @@
+{
+    "Motherboard": [
+        {
+          "Name": "MSI MAG B550 TOMAHAWK",
+          "Form factor": "ATX",
+          "Max Memory": "128 GB",
+          "price": 169
+        },
+        {
+          "Name": "Asus TUF GAMING X570-PLUS (WI-FI)",
+          "Form factor": "ATX",
+          "Max Memory": "128 GB",
+          "price": 210
+        },
+        {
+          "Name": "MSI B550-A PRO",
+          "Form factor": "ATX",
+          "Max Memory": "128 GB",
+          "price": 140
+        },
+        {
+          "Name": "Gigabyte Z790 AORUS ELITE AX",
+          "Form factor": "ATX",
+          "Max Memory": "128 GB",
+          "price": 255
+        },
+        {
+          "Name": "MSI B550M PRO-VDH WIFI",
+          "Form factor": "Micro-ATX",
+          "Max Memory": "6128GB",
+          "price": 120
+        }
+      ]
+}

@@ -1,0 +1,138 @@
+<router-outlet></router-outlet>
+<div class="content">
+    <div class="content_resize">
+      <div class="mainbar">
+        
+        <table [striped]="true" cTable color="dark">
+            <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Component</th>
+              <th scope="col">Name</th>
+              <th scope="col">Price</th>
+              <th scope="col">Action</th>
+            </tr>
+            </thead>
+            <tbody>
+              <tr *ngIf="motherdataa.length ==0">
+                <td>1</td>
+                <td>Motherboard</td>
+                <td></td>
+                <td></td>
+                <td><a [routerLink]="['motherboard']">Add</a></td></tr>
+            <tr *ngFor="let a of motherdataa">
+                <td>1</td>
+                <td>Motherboard</td>
+                <td>{{a.Name}}</td>
+                <td>${{a.price}}</td>
+                <td><a [routerLink]="['motherboard']">Add</a></td>
+            </tr>
+            <tr *ngIf="cpudataa.length ==0">
+              <td>2</td>
+              <td>CPU</td>
+              <td></td>
+              <td></td>
+              <td><a [routerLink]="['cpu']">Add</a></td>
+          </tr>
+            <tr *ngFor="let a of cpudataa">
+              <td>2</td>
+              <td>CPU</td>
+              <td>{{a.Name}}</td>
+              <td>${{a.price}}</td>
+              <td><a [routerLink]="['cpu']">Add</a></td>
+          </tr>
+          <tr *ngIf="gpudataa.length ==0">
+            <td>3</td>
+            <td>Video Card</td>
+            <td></td>
+            <td></td>
+            <td><a [routerLink]="['gpu']">Add</a></td></tr>
+          <tr *ngFor="let a of gpudataa">
+            <td>3</td>
+            <td>Video Card</td>
+            <td>{{a.Name}}</td>
+            <td>${{a.price}}</td>
+            <td><a [routerLink]="['gpu']">Add</a></td>
+        </tr>
+        <tr *ngIf="suppdataa.length ==0">
+          <td>4</td>
+          <td>Power Supply</td>
+          <td></td>
+          <td></td>
+          <td><a [routerLink]="['supply']">Add</a></td></tr>
+        <tr *ngFor="let a of suppdataa">
+          <td>4</td>
+          <td>Power Supply</td>
+          <td>{{a.Name}}</td>
+          <td>${{a.price}}</td>
+          <td><a [routerLink]="['supply']">Add</a></td>
+      </tr>
+      <tr *ngIf="stordataa.length ==0">
+        <td>5</td>
+        <td>Storage</td>
+        <td></td>
+        <td></td>
+        <td><a [routerLink]="['storage']">Add</a></td></tr>
+      <tr *ngFor="let a of stordataa">
+        <td>5</td>
+        <td>Storage</td>
+        <td>{{a.Name}}</td>
+        <td>${{a.price}}</td>
+        <td><a [routerLink]="['storage']">Add</a></td>
+    </tr>
+    <tr *ngIf="memdataa.length ==0">
+      <td>6</td>
+      <td>Memory</td>
+      <td></td>
+      <td></td>
+      <td><a [routerLink]="['memory']">Add</a></td></tr>
+    <tr *ngFor="let a of memdataa">
+      <td>6</td>
+      <td>Memory</td>
+      <td>{{a.Name}}</td>
+      <td>${{a.price}}</td>
+      <td><a [routerLink]="['memory']">Add</a></td>
+  </tr>
+  <tr>
+    <td colspan="4">Total</td>
+    <td>${{total}}</td>
+  </tr>
+            
+            </tbody>
+          </table>
+        
+      </div>
+      <div class="sidebar">
+        
+        <div class="gadget">
+          <h2 class="star"><span><u>Navigation</u></span></h2>
+          <div class="clr"></div>
+          <ul class="sb_menu">
+            <li><a [routerLink]="['']">Home</a></li>
+            <li><a [routerLink]="['build']">Build your PC</a></li>
+            <li><a [routerLink]="['about']">About Us</a></li>
+            <li><a [routerLink]="['chat']">Talk to a helper</a></li>
+            <li><a [routerLink]="['learn']">Build Guides</a></li>
+          </ul>
+        </div>
+        <div class="gadget">
+          <h2 class="star"><span><u>Learn to Build</u></span></h2>
+          <div class="clr"></div>
+          <ul class="learn_nav">
+            <li><a [routerLink]="['learn']">Gaming</a><br/>
+                Unleash your inner champion with the art of building your very own gaming rig. </li>
+            <li><a [routerLink]="['learn']">Workstation</a><br/>
+                Unleash your professional prowess with a meticulously crafted work PC.</li>
+            <li><a [routerLink]="['learn']">Streaming</a><br/>
+                Elevate your content creation journey with a custom-built streaming PC</li>
+            <li><a [routerLink]="['learn']">Budget</a><br/>
+                Experience the perfect blend of performance and affordability with our custom-built budget PC.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="clr"></div>
+    </div>
+  </div>
+
+
+

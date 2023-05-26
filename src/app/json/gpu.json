@@ -1,0 +1,35 @@
+
+{
+"GPU": [
+    {
+      "Name": "MSI GeForce RTX 3060 Ventus 2X 12G",
+      "chipset": "GeForce RTX 3060",
+      "memory": "12 GB",
+      "price": 330
+    },
+    {
+      "Name": "Asus TUF GAMING",
+      "chipset": "GeForce RTX 4070 Ti",
+      "memory": "12 GB",
+      "price": 860
+    },
+    {
+      "Name": "Asus ROG STRIX GAMING OC",
+      "chipset": "GeForce RTX 4090",
+      "memory": "24 GB",
+      "price": 2000
+    },
+    {
+      "Name": "Asus DUAL",
+      "chipset": "GeForce RTX 4070",
+      "memory": "12 GB",
+      "price": 600
+    },
+    {
+      "Name": "Gigabyte WINDFORCE OC",
+      "chipset": "GeForce RTX 4070",
+      "memory": "12 GB",
+      "price": 600
+    }
+  ]
+}

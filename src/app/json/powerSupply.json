@@ -1,0 +1,34 @@
+{
+    "PowerSupply": [
+        {
+          "Name": "EVGA SuperNOVA 650 G+",
+          "type": "ATX",
+          "wattage": "650W",
+          "price": 89
+        },
+        {
+          "Name": "Corsair RM750x",
+          "type": "ATX",
+          "wattage": "750W",
+          "price": 129
+        },
+        {
+          "Name": "Corsair RM850x (2021)",
+          "type": "ATX",
+          "wattage": "850W",
+          "price": 150
+        },
+        {
+          "Name": "Thermaltake Toughpower GX2",
+          "type": "ATX",
+          "wattage": "600W",
+          "price": 70
+        },
+        {
+          "Name": "Corsair RM1000x (2021)",
+          "type": "ATX",
+          "wattage": "1000W",
+          "price": 180
+        }
+      ]
+}

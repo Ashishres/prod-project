@@ -1,0 +1,61 @@
+<div class="content">
+    <div class="content_resize">
+      <div class="mainbar">
+        
+        <table [striped]="true" cTable color="dark">
+            <thead>
+            <tr>
+              <th scope="col">Name</th>
+              <th scope="col">Capacity</th>
+              <th scope="col">Type</th>
+              <th scope="col">Price</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr *ngFor="let a of storageData.Storage">
+                <td>{{ a.Name }}</td>
+                <td>{{ a['capacity'] }}</td>
+                <td>{{ a['type'] }}</td>
+                <td>{{ a.price }}</td>
+                <td><button (click)="onAddButtonClick(a)" cButton color="light">Add</button></td>
+            </tr>
+            
+            </tbody>
+          </table>
+        
+      </div>
+      <div class="sidebar">
+        
+        <div class="gadget">
+          <h2 class="star"><span><u>Navigation</u></span></h2>
+          <div class="clr"></div>
+          <ul class="sb_menu">
+            <li><a [routerLink]="['']">Home</a></li>
+            <li><a [routerLink]="['build']">Build your PC</a></li>
+            <li><a [routerLink]="['about']">About Us</a></li>
+            <li><a [routerLink]="['chat']">Talk to a helper</a></li>
+            <li><a [routerLink]="['learn']">Build Guides</a></li>
+          </ul>
+        </div>
+        <div class="gadget">
+          <h2 class="star"><span><u>Learn to Build</u></span></h2>
+          <div class="clr"></div>
+          <ul class="learn_nav">
+            <li><a [routerLink]="['learn']">Gaming</a><br/>
+                Unleash your inner champion with the art of building your very own gaming rig. </li>
+            <li><a [routerLink]="['learn']">Workstation</a><br/>
+                Unleash your professional prowess with a meticulously crafted work PC.</li>
+            <li><a [routerLink]="['learn']">Streaming</a><br/>
+                Elevate your content creation journey with a custom-built streaming PC</li>
+            <li><a [routerLink]="['learn']">Budget</a><br/>
+                Experience the perfect blend of performance and affordability with our custom-built budget PC.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="clr"></div>
+    </div>
+  </div>
+
+
+
+

@@ -1,0 +1,34 @@
+{
+    "Memory": [
+        {
+          "Name": "Corsair Vengeance LPX 16 GB",
+          "speed": "3200 MHz",
+          "price per GB": "$2.812",
+          "price": 45
+        },
+        {
+          "Name": "Corsair Vengeance RGB Pro 32 GB",
+          "speed": "3600 MHz",
+          "price per GB": "$3.189",
+          "price": 102
+        },
+        {
+          "Name": "Corsair Vengeance LPX 32 GB",
+          "speed": "3600 MHz",
+          "price per GB": "$2.781",
+          "price": 89
+        },
+        {
+          "Name": "Corsair Vengeance 32 GB",
+          "speed": "5600 MHz",
+          "price per GB": "$2.656",
+          "price": 85
+        },
+        {
+          "Name": "G.Skill Trident Z5 RGB 32 GB",
+          "speed": "6000 MHz",
+          "price per GB": "$3.437",
+          "price": 110
+        }
+      ]
+}
